@@ -1,0 +1,12 @@
+#gradient {
+    height: 500px;
+    border: 1px solid red;
+    background-image: linear-gradient(green,blue,red); /* top to bottom (default) */
+    background-image: linear-gradient(to right, green,blue,red); /* left to right */
+    background-image: linear-gradient(to bottom right, green,blue,red); /* top-left to bottom-right */ /* We can interchange between bottom and right means => right bottom */
+    background-image: linear-gradient(120deg, green,blue,red); 
+
+    background-image: radial-gradient(blue , green, red); /* default shape is ellipse */
+    /* background-image: radial-gradient(circle, blue , green, red); */
+    /* background-image: radial-gradient(circle, blue 20% , green 30%, red 50%); */
+}

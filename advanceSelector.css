@@ -1,0 +1,51 @@
+/* 1. Element Selector */
+/* li {
+    color: red;
+} */
+
+/* 2. ID Selector */
+/* #list2 {
+    color: red;
+} */
+
+/* 3. Class Selector */
+/* .list5 {
+    color: red;
+} */
+
+/* 4. Pseudo Class */
+/* a:hover {
+    color: red;
+} */
+
+/* 5. Pseudo Element */
+/* p::first-line {
+    color: red;
+} */
+
+/* 6. Attribute Selector */
+/* a[href="https://www.google.com"] {
+    color: red;
+} */
+
+/* 7. Universal Selector */ /* Used for testing and debug purpose */
+/* * {
+    border: 1px solid red;
+} */
+
+/* 8. Combinator Selector */
+div a { /* It will select all(direct and indirect) child element "a" */
+    color: red;
+}
+div > a { /* It will select all direct child element "a" */
+    color: rgb(252, 33, 5);
+}
+div + a { /* It will select just sibling element "a" */
+    color: chartreuse;
+}
+div ~ a { /* It will select a positioned after the div */
+    color: blue;
+}
+h1, p {
+    color: red;
+}

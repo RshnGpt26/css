@@ -1,0 +1,39 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-collapse: separate; /* default value of border-collapse is separate */
+    border-spacing: 15px;
+    border-spacing: 15px 25px;
+    empty-cells: show; /* default value of empty-cells is show */
+    empty-cells: hide;
+    width: 100%;
+    table-layout: auto; /* default value of table-layout */
+    table-layout: fixed;
+}
+
+caption {
+    border: 1px solid black;
+    caption-side: top; /* default value of caption-side is top */
+    caption-side: bottom;
+}
+
+tr {
+    border: 2px solid red; /* This doesn't work with tr */
+}
+
+th {
+    border: 2px solid red;
+    height: 50px;
+    padding: 5px;
+    text-align: right;
+}
+
+td {
+    border: 2px solid blue;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: bottom;
+    vertical-align: middle;
+    vertical-align: baseline;
+}

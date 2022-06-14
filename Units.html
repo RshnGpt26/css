@@ -1,0 +1,34 @@
+<!-- We use length in width, height, margin, padding, font-size
+There are two type of units in css
+A. Absolute
+    1. Cm (Centimeters)
+    2. Mm (Millimeter)
+    3. In (Inch)
+    4. Px ( 1 inch = 96 px )
+    5. Pt ( 1 inch = 72 pt )
+    6. PC ( 1 pc = 12 pt )
+B. Relative
+    1. EM => em is relative to the size of its direct parent
+        e.g. => If parents font-size is 10px then in child 2em means 20px
+    2. Rem => rem is only relative to root (html Tag) size
+    3. Vh => 1% of view port height
+    4. Vw => 1% of view port width
+    5. % => relative to parent -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Units.css">
+    <title>Units</title>
+</head>
+<body>
+    <div id="parent">
+        <p>I am Parent</p>
+        <div id="child">
+            <p>I am Child</p>
+        </div>
+    </div>
+</body>
+</html>

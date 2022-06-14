@@ -1,0 +1,22 @@
+p::first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+p::first-line {
+    font-size: 35px;
+    color: peru;
+}
+
+h1::before {
+    content: url("backgroundImages/sunset.jpg");
+}
+
+h1::after {
+    content: " Added After";
+}
+
+::selection {
+    color: red;
+    background-color: yellow;
+}

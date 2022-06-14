@@ -1,0 +1,23 @@
+#overflow {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    height: 300px;
+    width: 600px;
+    overflow: visible;/* visible is default value */
+    overflow: hidden;
+    overflow: scroll;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    overflow: auto;
+
+
+    resize: both;
+    resize: horizontal;
+    resize: vertical; /* We can only resize block elements and elements who's overflow property => hidden, scroll, auto. It won't work with overflow's default value (visible) */
+}
+
+textarea {
+    resize: none;
+}

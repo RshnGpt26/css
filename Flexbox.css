@@ -1,0 +1,69 @@
+.flex-container {
+    background-color: aqua;
+    display: flex;
+
+    /* flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap;  */
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex-flow: row wrap; */
+
+    /* horizontal align */
+    /*justify-content: flex-start; /* flex-start is default value of justify-content */
+    /* justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+    /* height: 400px; */
+    /* height: 70vh; */
+    /* vertical align */
+    /* align-items: stretch; /* stretch is default value of align-items */
+    /* align-items: center;
+    align-items: flex-start;
+    align-items: flex-end; */
+
+    /* flex-wrap: wrap; */
+    /*align-content: stretch; /* stretch is default value of align-content */
+    align-content: space-between;
+    align-content: space-around;
+    align-content: flex-start;
+    align-content: flex-end;
+
+    height: 400px;
+}
+
+.flex-child {
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+#one {
+    /* order: 2; /* order attribute will be applicable for only those elements who's parent's display is flex */
+    /* flex-grow: 1; /* It covers all extra blank spaces */
+    /* flex-shrink: 0; /* #one won't decease the width to fill complete width of #flex-container */
+    /* flex-shrink: 3; /* #one will decease 3 times of it's original width to fill complete width of #flex-container */
+    align-self: flex-start;
+}
+
+#two {
+    /* order: 3; */
+    /* flex-grow: 1; */
+    /* flex-basis: 300px; /* initial width of #two will be 300px but when screen size decreases it will decrease */
+    align-self: center;
+}
+
+#three {
+    /* order: 1; */
+    /* flex-grow: 1; */
+    align-self: flex-end;
+}

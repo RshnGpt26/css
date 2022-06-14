@@ -1,0 +1,38 @@
+#text {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    color: blue;
+    text-align: left; /* left is default */
+    /* text-align: right;
+    text-align: center;
+    text-align: justify; */
+    /* direction: rtl; */ /* rtl stands for right to left */
+    text-decoration: none; /* none is default value */
+    /* text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through; */
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    line-height: 30px;
+    text-indent: 50px;
+    /* letter-spacing: 2px;
+    word-spacing: 15px; */
+    /* white-space: pre;
+    white-space: nowrap; */
+    word-wrap: break-word;
+    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
+}
+/* img {
+    border: 2px solid red;
+    vertical-align: top;
+    vertical-align: middle;
+    vertical-align: bottom; /* bottom is default value *
+} */
+#shadow {
+    font-size: 80px;
+    text-shadow: 10px 10px 5px grey;
+    text-shadow: -10px -10px 5px grey;
+}

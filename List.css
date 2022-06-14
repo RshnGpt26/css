@@ -1,0 +1,25 @@
+ul {
+    /* list-style-type: none;
+    list-style-type: disc;
+    list-style-type: circle;
+    list-style-type: square; */
+    list-style-image: url("backgroundImages/sunset.jpg");
+    list-style-position: outside; /* outside is default value for list-style-position */
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: lower-alpha;
+    list-style-type: upper-alpha;
+    list-style-type: lower-greek;
+    list-style-type: lower-latin;
+    list-style-type: upper-latin;
+    list-style-type: lower-roman;
+    list-style-type: upper-roman;
+    list-style-type: decimal;
+    list-style-type: decimal-leading-zero;
+}
+
+li {
+    border: 2px solid black;
+}

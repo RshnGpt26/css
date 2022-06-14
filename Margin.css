@@ -1,0 +1,20 @@
+body {
+    border: 2px solid red;
+}
+#margin {
+    border: 2px solid blue;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 10%;
+    margin: 50px;
+    margin: 50px 100;
+    /* margin: -50px 100px 150px 200px; /* In padding negative will not work */
+    
+    width: 500px;
+    margin: 20px auto;
+}
+/* 
+Note: 
+    If two boxes having margin(for box-1 margin-bottom and for box-2 margin-top) 50px and 30px respectively then it considers total vertical margin 50px. But this property won't work with margin-left and margin-right it will provide total horizontal margin 80px.
+*/

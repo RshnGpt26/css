@@ -1,0 +1,31 @@
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: blue;
+}
+
+li:nth-child(4) {
+    color: yellow;
+}
+
+li:nth-child(odd){
+    color: green;
+}
+
+li:nth-child(even) {
+    color: hotpink;
+}
+
+li:nth-child(3n + 1) {
+    color: orangered;
+}
+
+li:nth-last-child(2) {
+    color: purple;
+}
+
+input:focus {
+    border: 2px solid red;
+}

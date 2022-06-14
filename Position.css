@@ -1,0 +1,40 @@
+#parent {
+    border: 1px solid red;
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+    position: absolute; /* We can put here relative and fixed too for #two. It will work */
+}
+
+#one {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display: inline-block;
+}
+
+#two {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+
+    /* position: relative; /* Here position of #two will remain empty
+    top: 50px;
+    left: 50px; */
+
+    /*position: absolute; /* Here #three will occupy the position of #two 
+    top: 50px;
+    left: 50px; */ /* If #parent div have property position: absolute or relative or fixed then #two div will pushed to top: 50px, left: 50px from #parent div for position: absolute */ /* If #parent div doesn't have property position: absolute or relative or fixed then #two div will pushed to top: 50px, left: 50px from body */
+
+    position: fixed; /* Here #three will occupy the position of #two */
+    right: 20px;
+    bottom: 20px;
+}
+
+#three {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+}

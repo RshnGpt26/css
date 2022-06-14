@@ -1,0 +1,12 @@
+img {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    object-fit: fill;
+
+    object-fit: contain;
+    object-position: bottom left;
+
+    object-fit: cover;
+    object-position: top right;
+} 

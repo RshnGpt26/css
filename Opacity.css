@@ -1,0 +1,19 @@
+#color-box {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+#color-box2 {
+    background-color: rgb(182, 214, 67);
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: -100px;
+}
+
+img:hover {
+    opacity: 0.9;
+}

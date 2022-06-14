@@ -1,0 +1,36 @@
+div {
+    color: blue !important;
+    border: 2px solid black;
+    /* cursor: none; /* none is default value */
+    /* cursor: all-scroll; */
+    /* cursor: cell; */
+    /* cursor: col-resize; */
+    /* cursor: row-resize; */
+    /* cursor: s-resize; */
+    /* cursor: crosshair; */
+    /* cursor: e-resize; */
+    /* cursor: ew-resize; */
+    /* cursor: grab; */
+    /* cursor: grabbing; */
+    /* cursor: help; */
+    /* cursor: move; */
+    /* cursor: n-resize; */
+    /* cursor: ne-resize; */
+    /* cursor: nesw-resize; */
+    /* cursor: no-drop; */
+    /* cursor: not-allowed; */
+    /* cursor: ns-resize; */
+    /* cursor: nw-resize; */
+    /* cursor :pointer; */
+    /* cursor: progress; */
+    /* cursor: text; */
+    /* cursor: vertical-text; */
+    /* cursor: wait; */
+    /* cursor: zoom-in; */
+    /* cursor: zoom-out; */
+    /* cursor: alias; */
+    /* cursor: auto; */
+    /* cursor: context-menu; */
+    /* cursor: copy; */
+    cursor: default;
+}

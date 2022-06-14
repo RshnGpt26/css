@@ -1,0 +1,15 @@
+body {
+    border: 2px solid red;
+    height: 800px;
+}
+#div1 {
+    background-color: aqua;
+    height: 500px;
+    height: 50%;
+    /* width: 500px; */
+    width: 70%;/* takes width 70% of it's parent's(body's) width */
+    max-width: 500px;
+    max-height: 300px;
+    min-width: 1000px;
+    min-height: 300px;
+}

@@ -1,0 +1,66 @@
+@keyframes changeColor {
+    /* from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    } */
+
+    /* OR */
+
+    /* 0% {
+        background-color:red;
+    }
+    25% {
+        width: 400px;
+    }
+    50% {
+        background-color: rgb(221, 75, 7);
+    }
+    75% {
+        width: 200px;
+    }
+    100% {
+        background-color: rgb(182, 155, 4);
+    } */
+
+    0% { background-color: red; border-radius: 0%; }
+    10% { background-color: green; border-radius: 10%; }
+    20% { background-color: blue; border-radius: 20%; }
+    30% { background-color: yellow; border-radius: 30%; }
+    40% { background-color: orange; border-radius: 40%; }
+    50% { background-color: rgb(116, 7, 25); border-radius: 50%; }
+    60% { background-color: orangered; border-radius: 40%; }
+    70% { background-color: blue; border-radius: 30%; }
+    80% { background-color: green; border-radius: 20%; }
+    90% { background-color: rgb(240, 130, 130); border-radius: 10%; }
+    100% { background-color: rgb(142, 25, 172); border-radius: 0%; }
+}
+
+#animate {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    animation-name: changeColor;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: 2; */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#animate1 {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    animation-name: changeColor;
+    animation-duration: 10s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    /* animation-direction: alternate-reverse; */
+    animation-timing-function: linear;
+}

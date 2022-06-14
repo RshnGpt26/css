@@ -1,0 +1,26 @@
+@font-face {
+    /* font-family: abc; */
+    font-family: "Roshan Gupta";
+    src: url('Fonts/GreatVibes-Regular.ttf');
+}
+
+h1 {
+    font-weight: 900;
+    font-family: 'Roshan Gupta', 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 30px;
+    /* font-weight: bold; */
+    font-weight: regular;
+    font-style: normal;
+    /* normal is default value */
+    /* font-style: italic; */
+    font-variant: small-caps;
+
+    /* font-family: abc, 'Raleway', sans-serif; */
+    font-family: "Roshan Gupta", 'Raleway', sans-serif;
+
+    font: italic small-caps 600 20px "Roshan Gupta";
+    /* font-style font-variant font-weight font-size font-family */
+}

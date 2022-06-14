@@ -1,0 +1,34 @@
+#bg{
+    background-image: url("BackgroundImages/sunset.jpg");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-position: right center;
+    background-position: right bottom;
+    background-position: left top;
+    background-position: left center;
+    background-position: left bottom;
+    background-position: center top;
+    background-position: center center;
+    background-position: center bottom;
+    background-position: 50px 100px;
+    background-position: 15% 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 1000px 1000px;
+    background-size: 90% 80%;
+    background-size: cover;
+    background-size: contain;
+    background-attachment: scroll; /* It's default */
+    background-attachment: fixed;
+    background: #ffffff url("BackgroundImages/sunset.jpg") no-repeat fixed 15% 50%; /* background: color image repeat attachment position-x position-y */
+    background-color: rgb(255, 0, 0); /* This property won't work if background-image is exist in the same selector */
+    /* For multiple background images 
+        background-image: url('firstImageURL'), url('secondImageURL');
+        background-position: left top, right bottom;
+    */
+}
+/* body{
+    background-color: yellow;
+} */

@@ -1,0 +1,26 @@
+.display {
+    border: 1px solid red;
+    width: 48%;
+    height: 100px;
+    /* Here display's by default value is block  */
+}
+
+.display1 {
+    border: 1px solid red;
+    width: 50%;
+    height: 100px;
+    display: inline;
+}
+
+.display2 {
+    border: 1px solid red;
+    width: 48%;
+    height: 100px;
+    display: inline-block;
+}
+
+#visibility1 {
+    display: none; /* Containts after this div will occupy the space of this div */
+    
+    /* visibility: hidden; */ /* Containts after this div will not occupy the space of this div. The space of this div remains empty */
+}

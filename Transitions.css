@@ -1,0 +1,38 @@
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 100px;
+
+    /* transition-property: width;
+    transition-duration: 1s;*/
+
+    /* transition-property: background-color;
+    transition-duration: 1s; */
+
+    /* transition-property: width, background-color;
+    transition-duration: 1s; */
+
+    transition-property: all;
+    transition-duration: 1000ms;
+    /* transition-delay: 800ms; */
+    /* transition-timing-function: ease; */
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-in-out;
+    transition-timing-function: ease-out;
+
+    transition: width 2s, height 3s; /* Property, Duration, Timing-Function(optional), Delay(optional) */
+}
+
+#div1:hover {
+    /* width: 200px; */
+
+    /* background-color: green; */
+
+    /* width: 200px;
+    background-color: aqua; */
+
+    width: 200px;
+    background-color: aqua;
+    height: 200px;
+}

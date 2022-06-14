@@ -1,0 +1,10 @@
+#padding {
+    border: 2px solid red;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 60px;
+    padding: 60px;
+    padding: 25px 50px;
+    padding: 10px 20px 30px 40px;
+}

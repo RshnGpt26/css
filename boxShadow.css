@@ -1,0 +1,10 @@
+div {
+    border: 2px solid red;
+    width: 500px;
+    background-color: aqua;
+    margin: 200px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px 3px grey; /* x-axis y-axis blur-radius spread-radius color */
+    box-shadow: 10px 10px 15px 3px grey inset; /* It will set the shadow inside of the box */
+    box-shadow: 10px 10px 15px 3px grey, -10px 10px 15px 3px rgb(214, 133, 133);
+}
